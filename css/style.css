@@ -1,0 +1,43 @@
+.slider{
+	background-image: url(../images/9.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.custom-slider{
+	background-color: rgba(22,22,22,.5);
+	padding: 40px 60px;
+}
+.custom-slider h1{
+	font-size: 50px;
+	margin-bottom: 50px;
+	color: yellow;
+}
+.custom-slider p{
+	font-size: 30px;
+	margin-bottom: 50px;
+	color: white;
+}
+.custom-slider button{
+	margin-bottom: 50px;
+	color: white;
+	background: #7B082C;
+	transition: 3s;
+}
+.custom-slider button:hover{
+	background: blue;
+	color: white;
+}
+.carousel-ind {
+    bottom: 20px;
+}
+.carousel-ind li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   	background-color: #fd7e14;
+}
+.carousel-ind .active{
+	background-color: #e83e8c;
+}
+.carousel-ind
